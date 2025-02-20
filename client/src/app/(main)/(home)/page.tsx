@@ -1,8 +1,11 @@
+import HeroSection from '@/components/shared/views/Hero';
 import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <React.Fragment>
+      <HeroSection />
+    </React.Fragment>
   )
 }
 

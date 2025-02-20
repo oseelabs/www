@@ -7,13 +7,10 @@ type Props = {
 const MainLayout = ({ children }: Props) => {
   return (
     <React.Fragment>
-        <header className='max-w-screen overflow-x-hidden p-2'>
-            <h1>Header</h1>
-        </header>
-        <main className='max-w-screen overflow-x-hidden p-2'>
+        <main className='max-w-screen overflow-x-hidden'>
             { children }
         </main>
-        <footer className='max-w-screen overflow-x-hidden p-2'>
+        <footer className='max-w-screen overflow-x-hidden'>
             <p>Footer</p>
         </footer>
     </React.Fragment>
