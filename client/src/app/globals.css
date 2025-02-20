@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer theme {
+  /* Add your custom theme styles here */
+  * {
+    @apply box-border p-0 m-0;
+  }
+}
